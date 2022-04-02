@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 pipeline {
-agent {
-docker {
+ agent {
+ docker {
 image 'node'
 args '-u root'
 }
